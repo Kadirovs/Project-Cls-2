@@ -1,0 +1,353 @@
+body {
+  width: auto;
+  height: auto;
+  margin-top: 20px;
+}
+
+/*-----------------------------------------------------------------*/
+.div1 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+}
+
+/*---------------------------------------------------------------*/
+.d1 {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.Photosame1 {
+  width: 130px;
+  height: 100px;
+}
+
+.Logoname {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 40px;
+}
+
+/*+++++++++++++++++++++++++++++++++*/
+.d2 {
+  width: 70%;
+}
+.d2 ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 70px;
+}
+.d2 ul li {
+  font-size: 28px;
+  text-decoration: underline;
+  color: black;
+  font-weight: 600;
+}
+.d2 ul li:hover {
+  color: red;
+}
+
+/*+++++++++++++++++++++++++++++++++*/
+.d3 {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2%;
+}
+
+.click, .click3, .click2 {
+  width: 180px;
+  height: 60px;
+  background-color: darkred;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border-color: darkred;
+}
+.click h1, .click3 h1, .click2 h1 {
+  size: 28px;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.click:hover, .click3:hover, .click2:hover {
+  background-color: gray;
+  border-color: gray;
+}
+
+/*---------------------------------------------------------------*/
+.div2 {
+  width: 100%;
+  height: 600px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.d4 {
+  width: 40%;
+  height: 100%;
+}
+
+.head, .head2, .head1, .text, .text3, .text1 {
+  color: black;
+  font-size: 50px;
+}
+
+.text, .text3, .text1 {
+  font-size: 21px;
+}
+
+.click2 {
+  margin-top: 70px;
+}
+
+/*++++++++++++++++++++++++++++++++++++++++++*/
+.d5 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Photosame2, .Photosame3 {
+  width: 90%;
+  height: 90%;
+  border-radius: 200px;
+  border-width: 15px;
+  border-top-left-radius: 1000px;
+  border-style: double;
+  border-color: black;
+}
+
+/*---------------------------------------------------------------*/
+.div3, .div8, .div6 {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*---------------------------------------------------------------*/
+.div4, .div10, .div9, .div7, .div5 {
+  width: 90%;
+  height: 400px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  background-color: gray;
+  color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 20px;
+}
+
+.d6 {
+  width: 1000px;
+  height: 400px;
+}
+
+.video {
+  width: 1000px;
+  height: 400px;
+}
+
+.d7 {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.h3 {
+  font-size: 28px;
+  margin-right: 40%;
+}
+
+/*---------------------------------------------------------------*/
+.div5 {
+  height: 550px;
+  background-color: white;
+  margin-top: 150px;
+}
+
+.d8 {
+  width: 55%;
+  height: 600px;
+}
+
+.Photosame3 {
+  width: 95%;
+  border-top-left-radius: 0%;
+  border-top-right-radius: 200px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+}
+
+.d9 {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+/*---------------------------------------------------------------*/
+.div6 {
+  margin-top: 100px;
+}
+
+/*---------------------------------------------------------------*/
+.div7 {
+  background-color: white;
+  height: 600px;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.Photosame4 {
+  width: 400px;
+  height: 350px;
+  border-bottom-left-radius: 80%;
+  border-bottom-right-radius: 80%;
+}
+
+.Photosame5 {
+  width: 400px;
+  height: 350px;
+  border-radius: 50%;
+}
+
+.head1 {
+  color: red;
+}
+
+/*---------------------------------------------------------------*/
+.div8 {
+  margin-top: 100px;
+}
+
+.d13 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.signature {
+  width: 150px;
+  height: 100px;
+}
+
+/*---------------------------------------------------------------*/
+.div9 {
+  height: 600px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin-top: 150px;
+}
+
+.d14 {
+  width: 800px;
+  grid-column: 1/2;
+  grid-row: 1/3;
+}
+
+.Photosame6 {
+  width: 800px;
+  height: 600px;
+  border-radius: 20px;
+  border-top-right-radius: 60%;
+  border-bottom-right-radius: 10%;
+}
+
+.d15 {
+  width: auto;
+  height: 220px;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.head2 {
+  font-size: 40px;
+  color: darkred;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.d16 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.text3 {
+  font-size: 40px;
+}
+
+/*---------------------------------------------------------------*/
+.div10 {
+  background-color: white;
+  width: 90%;
+  height: 800px;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: black;
+}
+
+.d17 {
+  width: 30%;
+  height: 550px;
+}
+
+.d18 {
+  width: 60%;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid gray;
+  margin-left: 5%;
+  gap: 10px;
+}
+
+.click3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 58%;
+  margin-top: 10%;
+}
+
+input {
+  width: 75%;
+  height: 50px;
+  border-radius: 10px;
+}
+
+label {
+  margin-right: 62%;
+  font-size: 30px;
+}/*# sourceMappingURL=main.css.map */
